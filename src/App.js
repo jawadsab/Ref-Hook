@@ -1,11 +1,12 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './style.css';
+
+import FocusTextInput from './FocusTextInput';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <FocusTextInput />
     </div>
   );
 }
